@@ -13,7 +13,7 @@ s=input("Enter the numbers list : ").split(",")
 l=[]
 for i in s:
     l.append(int(i))
-x=int(input("Enter the nuber to be searched:"))
+x=int(input("Enter the number to be searched:"))
 result = binarySearch(l, 0, len(l)-1, x) 
 if result != -1: 
     print ("Element is present at index", result) 
